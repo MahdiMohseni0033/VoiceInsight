@@ -1,6 +1,9 @@
 from utils import NetMindClient, read_template, load_model, fill_template
-from presets_vars import NETMIND_API_KEY
 import time
+from dotenv import load_dotenv
+import os
+load_dotenv()  # Load variables from .env file
+NETMIND_API_KEY = os.environ.get("NETMIND_API_KEY")
 
 # ============= Initialize the Lama4-API and load prompt template==================
 
