@@ -15,8 +15,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/voice-insight.git
-cd voice-insight
+git clone https://github.com/MahdiMohseni0033/VoiceInsight.git
+cd VoiceInsight
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 1. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 
 2. Upload an audio file or record directly in the app
