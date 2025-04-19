@@ -185,3 +185,4 @@ coverage.*
 # Add project-specific ignores below this line
 # ============================================
 presets_vars.py
+test.py
