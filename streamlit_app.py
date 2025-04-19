@@ -15,6 +15,9 @@ import torch
 
 torch.classes.__path__ = []
 # put your NETMIND_API_KEY here
+from dotenv import load_dotenv
+import os
+load_dotenv()  # Load variables from .env file
 NETMIND_API_KEY = os.environ.get("NETMIND_API_KEY")
 # Set page configuration
 st.set_page_config(
