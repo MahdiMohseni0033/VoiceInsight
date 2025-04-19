@@ -1,0 +1,4 @@
+Extract user intent ({n_word} words maximum):
+- Output only the user intent in exactly {n_word} words or fewer. No introduction, explanation, or analysis.
+here is the user context:
+{user_conversation}
